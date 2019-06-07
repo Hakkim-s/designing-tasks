@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="assets/spacex.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="container-fluid overflow">
+      <!-- nav bar starts here -->
+      <nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-top">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+          <img src="assets/tesla.jpg" alt="logo" style="width:40px;" />
+        </a>
+        <form class="form-inline">
+          <input
+            class="form-control mr-sm-2"
+            type="text"
+            placeholder="Search"
+          />
+          <button class="btn btn-warning" type="submit">Search</button>
+        </form>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <!-- Links -->
+          <ul class="navbar-nav">
+            <li class="nav-item br-r">
+              <a class="nav-link " href="#section1"><span class="font-weight-bolder">Section 1</span></a>
+            </li>
+            <li class="nav-item br-r">
+              <a class="nav-link" href="#section2"><span class="font-weight-bolder">Section 2</span></a>
+            </li>
+            <li class="nav-item br-r">
+              <a class="nav-link" href="#section3"><span class="font-weight-bolder">Section 3</span></a>
+            </li>
+            <li class="nav-item br-r">
+              <a class="nav-link " href="#section4"><span class="font-weight-bolder">Section 4</span></a>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+      <!-- nav bar starts here -->
+      <!-- carousel starts here -->
+      <div id="section1">    
+           <div id="demo" class="carousel slide carousel-top" data-ride="carousel">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item ">
+            <img
+              src="assets/tesla1.jpg"
+              alt="Los Angeles"
+              width="100"
+              height="200"
+            />
+          </div>
+
+          <div class="carousel-item active">
+            <img
+              src="assets/spacex.jpg"
+              alt="Chicago"
+              width="100"
+              height="200"
+            />
+            <div class="carousel-caption">
+              <h3>Space X</h3>
+              <p>FIRST PRIVATE SPACECRAFT TO THE SPACE STATION</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/Tesla-ModelX.jpg"
+              alt="New York"
+              width="100"
+              height="200"
+            />
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+ 
+      <!-- carousel ends here -->
+      <div id="section2">
+        <h1 class="text-danger mr-65">h1 Bootstrap heading</h1>
+        <h2 class="text-muted">h2 Bootstrap heading</h2>
+        <h3 class="bg-danger text-white">h3 Bootstrap heading</h3>
+        <h4 class="text-success">h4 Bootstrap heading</h4>
+        <h5 class="bg-primary text-white">h5 Bootstrap heading</h5>
+        <h6 class="text-dark">h6 Bootstrap heading</h6>
+        <p>Use the mark element to <mark>highlight</mark> text.</p>
+        <p>
+          The
+          <abbr class="text-white-50 bg-dark" title="World Health Organization"
+            >WHO</abbr
+          >
+          was founded in 1948.
+        </p>
+        <ul class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Photos</a></li>
+          <li class="breadcrumb-item"><a href="#">Summer 2017</a></li>
+          <li class="breadcrumb-item"><a href="#">Italy</a></li>
+          <li class="breadcrumb-item active">Rome</li>
+        </ul>
+        <p class="font-weight-bold jumbotron">
+          The following HTML elements: <code>span</code>, <code>section</code>,
+          and <code>div</code> defines a section in a document.
+        </p>
+        <p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p>
+        <pre class="font-italic">
+                Text in a pre element
+                is displayed in a fixed-width
+                font, and it preserves
+                both spaces and
+                line breaks.
+                </pre
+        >
+        <div class="container mt-3 align-c">
+                <h2>Media Object</h2>
+                <p>Create a media object with the .media and .media-body classes:</p>
+                <div class="media border p-3">
+                  <img src="assets/Tesla-ModelX.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                  <div class="media-body">
+                    <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+                  </div>
+                </div>
+              </div>
+      </div>
+      <ul class="nav justify-content-center nav-tabs  nav-justified">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+            >Dropdown</a
+          >
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Link 1</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+            <a class="dropdown-item" href="#">Link 3</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+
+      &nbsp;
+      <ul class="list-group list-group-flush">
+        <li
+          class="list-group-item active list-group-item-action d-flex justify-content-between"
+        >
+          First item
+          <span class="badge badge-success badge-pill">12</span>
+        </li>
+        <li
+          class="list-group-item list-group-item-action list-group-item-success d-flex justify-content-between"
+        >
+          Second item
+          <span class="badge badge-primary badge-pill">15</span>
+        </li>
+        <li
+          class="list-group-item list-group-item-action list-group-item-info d-flex justify-content-between"
+        >
+          Third item
+        </li>
+        <li class="list-group-item list-group-item-action">Fourth item</li>
+        <li class="list-group-item list-group-item-action ">Fifth item</li>
+      </ul>
+      &nbsp;
+      <div class="list-group list-group-horizontal">
+        <a href="@#" class="list-group-item">First item</a>
+        <a href="@#" class="list-group-item active">Second item</a>
+        <a href="@#" class="list-group-item">Third item</a>
+        <a href="@#" class="list-group-item disabled">Fourth item</a>
+      </div>
+      &nbsp;
+      <div class="progress">
+        <div
+          class="progress-bar bg-danger progress-bar-striped "
+          style="width:30%"
+        >
+          30%
+        </div>
+        <div class="progress-bar bg-warning " style="width:10%">
+          10% Warning
+        </div>
+        <div
+          class="progress-bar bg-success font-weight-bold progress-bar-striped progress-bar-animated"
+          style="width:50%"
+        >
+          50% Success
+        </div>
+      <hr />
+      </div>
+      <div class="card">
+        <div class="card-header">Header</div>
+        <div class="card-body bg-warning text-white">Content</div>
+        <div class="card-footer">Footer</div>
+      </div>
+      &nbsp;
+
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Some example text. Some example text.</p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+      &nbsp;
+      <div class="card card-wdt img-fluid">
+        <img class="card-img-top" src="assets/tesla.jpg" alt="Card image" />
+        <div class="card-img-overlay">
+          <h4 class="card-title">John Doe</h4>
+          <p class="card-text">Some example text.</p>
+          <a href="#" class="btn btn-primary  stretched-link">Click Here</a>
+        </div>
+      </div>
+      <div class="alert alert-warning alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <strong>Warning!</strong> You should
+        <a href="#" class="alert-link">read this message</a>.
+      </div>
+      <!-- form starts here -->
+      <div id="section3"> 
+      <div class="container">
+        <form>
+          <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="switch1" />
+            <label class="custom-control-label" for="switch1">New User</label>
+          </div>
+          <div class="form-group">
+            <label for="usr">Name:</label>
+            <input
+              type="text"
+              class="form-control form-control-sm"
+              placeholder="Enter Name"
+              id="usr"
+              required
+            />
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <div class="form-group ">
+            <label for="email">Email:</label>
+            <div class="input-group">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter email"
+                name="email"
+                required
+              />
+              <div class="input-group-append">
+                <span class="input-group-text">@example.com</span>
+              </div>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input
+              type="password"
+              class="form-control"
+              id="pwd"
+              placeholder="Enter password"
+              name="pswd"
+              required
+            />
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">One</span>
+              <span class="input-group-text">Two</span>
+              <span class="input-group-text">Three</span>
+            </div>
+            <input type="text" class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="sel1">Select list:</label>
+            <select class="custom-select" id="sel1" required>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+          </div>
+          &nbsp;
+
+          <label for="sel2"
+            >Mutiple select list (hold shift to select more than one):</label
+          >
+          <select
+            multiple
+            size="3"
+            class="form-control"
+            id="sel2"
+            name="sellist2"
+          >
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+          <br />
+          <input type="range" class="custom-range" />
+          <br />
+          <!-- <input type="file" class="form-control-file border"> -->
+          <div class="custom-file mb-3">
+            <input
+              type="file"
+              class="custom-file-input"
+              id="customFile"
+              name="filename"
+            />
+            <label class="custom-file-label" for="customFile"
+              >Choose file</label
+            >
+          </div>
+          <br />
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Search" />
+            <div class="input-group-append">
+              <button class="btn btn-success" type="submit">Go</button>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="comment">Comment:</label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+          </div>
+
+          <div class="custom-control custom-radio custom-control-inline">
+            <input
+              type="radio"
+              class="custom-control-input"
+              id="customRadio"
+              name="optradio"
+            />
+            <label class="custom-control-label" for="customRadio">Save </label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input
+              type="radio"
+              class="custom-control-input"
+              id="customRadio1"
+              name="optradio"
+            />
+            <label class="custom-control-label" for="customRadio1"
+              >Don't Save
+            </label>
+          </div>
+
+          &nbsp;
+          <div class="form-group form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember" />
+              Remember me
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+          &nbsp;
+          Large shadow
+
+          <div class="shadow-lg p-4 mb-4 ">Large shadow</div>
+        </form>
+      </div>
+      </div>
+      <h2>Aspect ratio 21:9</h2>
+      <div class="embed-responsive embed-responsive-21by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+      </div>
+      <!-- form ends here  -->
+      <div id="section4"> 
+      <div class="table-responsive-sm">
+        <table class="table  table-striped table-bordered table-hover table-sm">
+          <thead class="thead-dark">
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-success">
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr class="table-danger">
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr class="table-warning">
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+            <tr class="table-info">
+              <td>Info</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="row ">
+        <div class="col-md-4  ">
+          <img
+            src="../bootstrapdemo/assets/Tesla-ModelX.jpg"
+            class="rounded  tesla-hw"
+            alt="Tesla"
+          />
+          <button type="button" class="btn btn-primary btn-block active">
+            Primary
+            <span class="badge badge-light">1</span>
+          </button>
+        </div>
+        <div class="col-md-4  ">
+          <img
+            src="../bootstrapdemo/assets/Tesla-ModelX.jpg"
+            class="rounded-circle mx-auto d-block  tesla-hw"
+            alt="Tesla"
+          />
+
+          <button type="button" class="btn btn-outline-success btn-lg">
+            <span class="spinner-border spinner-border-sm"></span> Success
+          </button>
+          <button type="button" class="btn btn-info " disabled>Info</button>
+        </div>
+        <div class="col-md-4 ">
+          <img
+            src="../bootstrapdemo/assets/Tesla-ModelX.jpg"
+            class="img-thumbnail float-right tesla-hw"
+            alt="Tesla"
+          />
+
+          <button type="button" class="btn btn-outline-primary btn-block">
+            <span class="spinner-grow spinner-grow-sm"></span>
+            Warning
+          </button>
+        </div>
+      </div>
+
+      <div class="btn-group btn-group-lg d-inline-block">
+        <button type="button" class="btn btn-danger">Apple</button>
+        <button type="button" class="btn btn-danger">Samsung</button>
+        <div class="btn-group  btn-group-lg">
+          <button
+            type="button"
+            class="btn btn-danger dropdown-toggle"
+            data-toggle="dropdown"
+          >
+            Sony
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Tablet</a>
+            <a class="dropdown-item" href="#">Smartphone</a>
+          </div>
+        </div>
+      </div>
+      <div class="dropdown dropright mar-30 d-inline-block">
+        <button
+          type="button"
+          class="btn btn-info dropdown-toggle"
+          data-toggle="dropdown"
+        >
+          Dropdown button
+        </button>
+        <div class="dropdown-menu">
+          <h5 class="dropdown-header">Dropdown header</h5>
+          <a class="dropdown-item active" href="#">Link 1</a>
+          <a class="dropdown-item" href="#">Link 2</a>
+          <a class="dropdown-item disabled" href="#">Link 3</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Another link</a>
+          <span class="dropdown-item-text">Just Text</span>
+        </div>
+      </div>
+      <!-- Button to Open the Modal -->
+      <button
+        type="button"
+        class="btn btn-success  d-inline-block"
+        data-toggle="modal"
+        data-target="#myModal"
+      >
+        Open modal
+      </button>
+
+      <!-- The Modal -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Modal Heading</h4>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <p>
+                Some text to enable scrolling.. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+              </p>
+              <p>
+                Some text to enable scrolling.. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+              </p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-toggle="collapse"
+        data-target="#demo"
+      >
+        Simple collapsible
+      </button>
+      <div id="demo" class="collapse">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </div>
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+              Collapsible Group Item #1
+            </a>
+          </div>
+          <div id="collapseOne" class="collapse show" data-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a
+              class="collapsed card-link"
+              data-toggle="collapse"
+              href="#collapseTwo"
+            >
+              Collapsible Group Item #2
+            </a>
+          </div>
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+        </div>
+        <p class="font-weight-bold">
+          Example heading <span class="badge badge-success">Badge</span>
+        </p>
+        <p class="font-weight-bold">
+          Example heading
+          <span class="badge  badge-pill badge-danger">Badge</span>
+        </p>
+        <div class="d-inline-flex p-3 bg-secondary text-white">  
+                <div class="p-2 bg-info">Flex item 1</div>
+                <div class="p-2 bg-warning">Flex item 2</div>
+                <div class="p-2 bg-primary">Flex item 3</div>
+              </div>
+              <div class="d-flex mt-3 flex-row-reverse bg-secondary">
+                    <div class="p-2 bg-info">Flex item 1</div>
+                    <div class="p-2 bg-warning">Flex item 2</div>
+                    <div class="p-2 bg-primary">Flex item 3</div>
+                  </div>
+                  <div class="d-flex flex-column">
+                        <div class="p-2 bg-info">Flex item 1</div>
+                        <div class="p-2 bg-warning">Flex item 2</div>
+                        <div class="p-2 bg-primary">Flex item 3</div>
+                      </div>
+                      
+                      <div class="d-flex flex-column-reverse">
+                        <div class="p-2 bg-info">Flex item 1</div>
+                        <div class="p-2 bg-warning">Flex item 2</div>
+                        <div class="p-2 bg-primary">Flex item 3</div>
+                      </div>
+        <ul class="pagination-lg mt-3 pagination justify-content-center">
+          <li class="page-item disabled">
+            <a class="page-link" href="#">Previous</a>
+          </li>
+          <li class="page-item active">
+            <a class="page-link" href="#11">1</a>
+          </li>
+           <li class="page-item"><a class="page-link" href="#22">2</a></li>
+          <li class="page-item"><a class="page-link" href="#33">3</a></li>
+          <li class="page-item"><a class="page-link" href="#44">Next</a></li>
+        </ul>
+       
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

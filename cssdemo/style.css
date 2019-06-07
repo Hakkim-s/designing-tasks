@@ -1,0 +1,639 @@
+.body-content {
+    background-position: right;
+    background-image: url("assets/spacex.jpg");
+    background-attachment: fixed;
+    counter-reset: section;
+}
+
+.heading-tag {
+    color: #00ffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p.center {
+    text-align: center !important;
+    color: #00ff7f;
+    font-family: auto;
+    letter-spacing: 29px;
+}
+
+p.large {
+    text-align: left;
+    font-size: 250%;
+}
+
+h1,
+h2,
+p {
+    text-align: left;
+    color: inherit;
+    font-style: italic;
+    font-family: Helvetica, Times, serif;
+}
+
+pre {
+    border: 8px dashed #ffe6e6;
+    margin: 0px 42% 0px 64px;
+    padding: 12px;
+    background-color: rgba(255, 0, 0, 0.3);
+    opacity: 0.4;
+    ;
+    color: #f5deb3;
+    line-height: 2.3;
+}
+
+p.fs {
+    font-size: 21px;
+    color: #000080;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-radius: 12px;
+    border-color: red blue green;
+    font-weight: bold;
+}
+
+p.box-size {
+    outline-style: double;
+    outline-width: 18px;
+    text-align: justify;
+    outline-offset: 7px;
+    height: 161px;
+    max-width: 500px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: lightblue;
+    text-indent: 50px;
+    margin-top: 30px;
+    direction: rtl;
+}
+
+h3.text {
+    text-decoration: line-through;
+    text-shadow: 3px 2px red;
+}
+
+h4 {
+    text-decoration: overline;
+    text-transform: capitalize;
+    margin-top: 32px;
+    font-variant: small-caps;
+}
+
+.fa,
+.fas {
+    font-weight: 900;
+    color: #ffff;
+}
+
+
+/* unvisited link */
+
+a:link {
+    color: #ffff;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: #7fff00;
+    text-decoration: none;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: #ff69b4;
+    text-decoration: underline;
+}
+
+
+/* selected link */
+
+a:active {
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+ul.ul-list {
+    color: #ffff;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+ol {
+    background: #ff9999;
+    padding: 20px;
+}
+
+ol li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+    /* display: inline; */
+}
+
+.customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 65%;
+}
+
+.customers td,
+.customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table,
+th,
+td {
+    border: 13px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100% !important;
+}
+
+.customers {
+    overflow-x: auto;
+    caption-side: top;
+    color: #ffff;
+}
+
+.customers caption {
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.customers tr:nth-child(odd) {
+    background-color: #f2f2f2;
+    color: #000000;
+}
+
+.customers tr:hover {
+    background-color: #ddd;
+}
+
+.customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4caf50;
+    color: #ffff;
+    height: 50px;
+    text-align: center;
+    font-size: 21px;
+}
+
+.disp-blc ol li {
+    display: inline !important;
+}
+
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 50%;
+    text-align: center;
+    font-size: 39px;
+    font-family: sans-serif;
+}
+
+img {
+    margin: 18px 0px 0px 50px;
+    width: 50%;
+    height: auto;
+    opacity: 1;
+}
+
+.overflow {
+    background: #dc143c;
+    color: white;
+    padding: 5px;
+    width: 59%;
+    height: 85px;
+    overflow: scroll;
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+    border: 1px solid #ccc;
+    float: left;
+}
+
+.clearfix1 {
+    border: 3px solid #4caf50;
+    padding: 5px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.img2 {
+    width: 170px;
+    height: 170px;
+}
+
+span.a {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+}
+
+.txt-col {
+    color: #0000ff;
+}
+
+.child-selc>p {
+    background-color: yellow;
+}
+
+div.background {
+    background: url(assets/tesla1.jpg) repeat;
+    border: 2px solid black;
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 306px;
+}
+
+div.transbox {
+    margin: 69px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.5;
+    filter: alpha(opacity=60);
+    /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+    font-size: 22px;
+}
+
+.ul-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #a9a9a9;
+    position: absolute;
+    height: 312px;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none !important;
+}
+
+li a.active {
+    background-color: #4caf50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 57px;
+    margin-left: 30px;
+    color: #a52a2a;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    margin-top: -7px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 276px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: #ffebcd;
+}
+
+
+/* Css attribute selector */
+
+[title~="elon"] {
+    border: 5px solid #8b008b;
+}
+
+
+/* Css Form*/
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+input[name="search"] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[name="search"]:focus {
+    width: 100%;
+}
+
+.form-inputs {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 9px;
+    margin-top: 179px;
+}
+
+
+/* Css Counters */
+
+h5,
+h6 {
+    counter-reset: subsection;
+    font-size: 25px !important;
+    line-height: 0px;
+    color: #9acd32;
+}
+
+h5::before {
+    counter-increment: section;
+    content: "Section " counter(section) ". ";
+}
+
+h6::before {
+    counter-increment: subsection;
+    content: counter(section) "." counter(subsection) " ";
+}
+
+.bg-img {
+    background-image: url(../cssdemo/assets/spacex-falcon.jpg), url(../cssdemo/assets/tesla.jpg);
+    background-position: right, left;
+    background-repeat: no-repeat, repeat;
+    padding: 30px 97px;
+    margin: 0px;
+    color: #f0f8ff;
+}
+
+
+/* linear-gradient(must be last) */
+
+.grad1 {
+    height: 200px;
+    background-image: linear-gradient(red, yellow, green);
+    transform: translate(14px, 12px);
+}
+
+
+/*/*text-overflow: ellipsis;*/
+
+p.test1 {
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    /*text-overflow: ellipsis;*/
+    color: #00ffff;
+    border-color: #7fff00
+}
+
+
+/*text-overflow: ellipsis;*/
+
+p.test2 {
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #00ffff;
+    border-color: #7fff00
+}
+
+p.test3 {
+    width: 11em;
+    border: 1px solid #000000;
+    word-wrap: break-word;
+    color: #f0f8ff
+}
+
+div.two-d-matrix {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+div.myDiv1 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+    /* Standard syntax */
+}
+
+div.myDiv2 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: matrix(1, 0, 0.5, 1, 150, 0);
+    /* Standard syntax */
+}
+
+.three-d-rotate {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+div.myDiv3 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: rotateX(150deg);
+    /* Standard syntax */
+}
+
+.animation {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+
+/* Standard syntax */
+
+@keyframes example {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: yellow;
+    }
+}
+
+.animation-lt {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-direction: alternate-reverse;
+}
+
+
+/* Standard syntax */
+
+@keyframes example {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.wdt-25 {
+    width: 25%;
+}
+
+.wdt-75 {
+    width: 75%;
+}
+
+img.tesla-img {
+    max-width: 387px;
+    height: 300px;
+    margin: 22px 0px 0px 221px;
+    border-radius: 43%;
+}
+
+img.tesla-img1 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.newspaper {
+    column-count: 3;
+    color: #f9f9f9;
+    column-rule: 3px solid #000;
+    column-gap: 40px;
+}

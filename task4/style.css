@@ -1,0 +1,42 @@
+body{
+    overflow: hidden;
+}
+.left-section {
+  background-color: #15257c;
+  color: #ffffff;
+  /* max-height: 670px; */
+}
+
+h1 {
+  font-size: 30px !important;
+  margin-top: 35px !important;
+}
+.mr {
+  margin: 99px 0px 0px 37px;
+}
+p {
+  margin-top: 16px;
+}
+span {
+  font-size: 15px;
+  color: #aaaaaa;
+}
+b {
+  color: #3b3a3a;
+}
+.creat-acc-btn {
+  background-color: #2e4482 !important;
+  color: #ffffff !important;
+}
+
+.login-btn {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+.ml41 {
+  margin-left: 41px;
+}
+input[class="form-control"] {
+  background-color: #f6f6f6;
+}

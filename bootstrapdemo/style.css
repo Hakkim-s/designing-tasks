@@ -1,0 +1,43 @@
+.tesla-hw {
+  width: 304;
+  height: 200px;
+}
+/* card image width */
+.card-wdt {
+  width: 250px;
+}
+
+.mar-30 {
+  margin: 30px;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.overflow {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  overflow: hidden;
+}
+.fl-r {
+  float: right;
+}
+.carousel-top {
+  top: 57px;
+}
+.mr-65 {
+  margin-top: 65px !important;
+}
+
+.br-r {
+  border-right: 2px solid #ffffff !important;
+}
+.shadow-lg {
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.175) !important;
+}
+.mt-3{
+    margin-top: 3px;
+}
+.align-c{
+    align-content: center;
+}

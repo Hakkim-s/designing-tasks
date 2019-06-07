@@ -1,0 +1,131 @@
+body {
+  background-color: white;
+  background-image:url('img/spacx-bg.jpg');
+}
+h2 {
+	text-align:center;
+}
+.pd-l{
+	padding-left:150px;
+}
+
+p {
+  color: blue;
+  border: 3px solid blue;
+  margin: 50px;
+}
+.ff{
+	font-family:verdana;
+    font-size:100%;
+	text-align:center;
+	color:#CC0066;
+	}
+
+a:link {
+	  text-align:center;
+  font-size:100%;
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink !important;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red  !important;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow  !important;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.imgpd{	 
+height: 94%;
+    width: 73%;
+float:left;	
+}
+.fl-r {
+padding-right:150px;	}
+.bt{
+	color: #00008b;
+	margin-left:50%;
+	
+}
+.fs{
+	font-size:16px;
+	font-family:courier;
+	background-color:#3CB371;"
+	}
+.bd {
+	border:7px solid Tomato;
+   padding: 30px;
+   list-style-type:square;
+    }
+.bd-r{
+		border:7px solid ;
+   padding: 30px;
+   border-color:660033;
+	}
+.link_img{
+	width:50% !important;
+	height:50% !important;
+	border:0 !important;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+caption {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    color: #6c757d;
+    text-align: left;
+	caption-side: top;
+}
+table#t01 {
+  width: 100%;    
+  background-color: #f1f1c1;
+}
+.max-ht{
+    max-width: 150px;
+    max-height: 150px;
+}
+.ul-li{
+	 list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333; 
+}
+.ul-li li{
+	float:left;
+}
+.ul-li li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.ul-li li a:hover {
+  background-color: #111111;
+}
+.bg{background-color: powderblue;}

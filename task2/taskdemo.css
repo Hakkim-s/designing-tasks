@@ -1,0 +1,176 @@
+.body-bg {
+  background-color: #0066ff !important;
+}
+.inner-content {
+  position: absolute;
+  background-color: #0052cc;
+  color: #ffffff; 
+}
+.inner-content:hover {
+  transition: all 1.5s ease-in-out;
+  transform: scale(1.2, 1.2);
+  background-color: #1aa3ff;
+  color: #ffffff;
+  z-index: 100;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+}
+.btn-radi {
+  border-radius: 25%;
+  background-color: aliceblue !important;
+}
+.inner-btn-radi {
+  border-radius: 25%;
+  background-color: #80ccff !important;
+}
+h1 {
+  font-family: serif;
+}
+
+
+.right-p {
+  font-family: inherit;
+  opacity: 0.7;
+}
+.right-p-b {
+  font-family: serif;
+}
+.top-content {
+  margin-top: 48px;
+}
+h2 {
+  font-family: serif;
+}
+.btn i {
+  padding-left: 15px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.ft-s-62 {
+  font-size: 62px !important;
+}
+.mr-l {
+  margin-left: 29px;
+}
+.inner-content div i {
+  padding-left: 20px;
+}
+
+
+/*----- second section----- */
+.dd {
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.dd:before {
+
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.6;
+  background-image: url(assets/tesla1.jpg);
+  background-repeat: round;
+
+  background-size: auto;
+}
+.bg-blur {
+  padding: 50px;
+  z-index: 2;
+  position: relative;
+}
+
+input {
+  outline: 0 !important;
+  border-width: 0 0 2px !important;
+  background: transparent !important;
+  border-color: #000000 !important;
+  border-radius: 0px !important;
+}
+input:focus {
+  outline: 0 !important;
+}
+.form-width {
+  width: 453px !important;
+}
+h3 {
+  padding-top: 31px;
+  font-family: serif;
+}
+textarea {
+  outline: 0 !important;
+  border-width: 0 0 2px !important;
+  background: transparent !important;
+  border-color: #000000 !important;
+  border-radius: 0px !important;
+}
+textarea.form-width {
+  width: 85% !important;
+  padding-top: 18px;
+}
+.submit-btn {
+  margin: 20px 114px 23px 0px;
+}
+textarea.form-control {
+  height: 50px !important;
+}
+/* check-box button starts*/
+
+.items-collection {
+  margin: 20px 0 0 0;
+}
+.items-collection label.btn-default.active {
+  background-color: #007ba7;
+  color: #fff;
+}
+.items-collection label.btn-default {
+  width: 90%;
+  border: 1px solid #000000;
+  margin: 5px;
+  border-radius: 17px;
+  color: #000000;
+}
+.items-collection label .itemcontent {
+  width: 100%;
+}
+.items-collection .btn-group {
+  width: 90%;
+}
+input[type="checkbox"] {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+/* check-box button ends */
+
+/* footer */
+.footer-cont {
+  padding: 50px;
+  z-index: 2;
+  position: relative;
+}
+h4 {
+  text-transform: uppercase;
+}
+address {
+  line-height: 19px !important;
+}
+i {
+  margin: 15px !important;
+}
+.clutch-mt {
+  margin-top: 8px;
+}
+
+.box-shodow-none{
+  box-shadow: none !important;
+}
